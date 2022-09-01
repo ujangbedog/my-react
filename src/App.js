@@ -1,10 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+//import Component from 'Path file'
+import Hello from './components/Hello';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -17,7 +19,10 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
+
+      {/* import component Hello */}
+      <Hello></Hello>
     </div>
   );
 }
