@@ -3,7 +3,9 @@ class Message extends Component
 {
     render()
     {
-        return <h1>Hello World from a Class Component!</h1>;
+        //using 'this' bcs not func but class
+        //return <h1>Message: { this.props.messagecontent }</h1>;
+        return <h1>Message: { this.props.messagecode }</h1>;
     }
 }
 
